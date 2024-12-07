@@ -21,7 +21,6 @@ body.night-mode {
     border-radius: 5.3rem;
 }
 #theme-toggle:hover {
-    filter: blur(1px);
     transform: scale(1.1);
 }
 header {
