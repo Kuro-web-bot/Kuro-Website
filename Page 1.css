@@ -20,9 +20,6 @@ body.night-mode {
     cursor: pointer;
     border-radius: 5.3rem;
 }
-#theme-toggle:hover {
-    transform: scale(1.1);
-}
 header {
     padding: 20px;
     text-align: center;
