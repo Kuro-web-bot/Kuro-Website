@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Couleur de fond par défaut pour le mode jour */
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+    text-align: center;
+}
+body.night-mode {
+    background-color: #212121;
+    color: white;
+}
+#theme-toggle {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 5.3rem;
+}
+#theme-toggle:hover {
+    filter: blur(1px);
+    transform: scale(1.1);
+}
+header {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img.icon {
+    width: 263px;
+    height: 263px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: all 0.9s;
+}
+header img:hover {
+    filter: blur(2px);
+    transform: scale(1.1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #007bff;
+}
+header.night-mode {
+    background-color: #212121;
+    color: white;
+}
+header.day-mode {
+    background-color: white;
+    color: #212121;
+}
+.btn-outline-dark {
+    border: 1px solid #212121;
+    color: #212121;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn-outline-dark:hover {
+    background-color: #212121;
+    color: white;
+}
+.btn-outline-light {
+    border: 1px solid #f8f9fa;
+    color: #f8f9fa;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn-outline-light:hover {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.btn-sm {
+    font-size:1.9rem;
+    border-radius: 1.3rem;
+    margin-right: 25rem;
+}
+.btn-sm:hover {
+    filter: blur(1px);
+    transform: scale(1.1);
+}
+#credit-footer {
+    position: absolute;
+    bottom: 100%;
+    text-align: center !important;
+    margin-right: 450px;
+}
+#texte:hover {
+    filter: blur(1px);
+    transform: scale(1.1);
+}
+.px-3 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin: 5px;
+    font-size: 1.4rem;
+}
+.px-3:hover {
+    filter: blur(1px);
+    transform: scale(1.1);
+}
