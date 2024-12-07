@@ -93,7 +93,6 @@ header.day-mode {
     margin-right: 25rem;
 }
 .btn-sm:hover {
-    filter: blur(1px);
     transform: scale(1.1);
 }
 #credit-footer {
