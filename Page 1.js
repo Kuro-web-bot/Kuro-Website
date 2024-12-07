@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
 
-        toggleButtonClassAndText(themeToggle, 'Nuit ', 'Jour ');
+        toggleButtonClassAndText(themeToggle, 'Night ', 'Day ');
         toggleButtonClassAndText(discordLink, 'Discord ', 'Discord ');
         toggleButtonClassAndText(twitterLink, 'Twitter ', 'Twitter ');
         toggleButtonClassAndText(youtubeLink, 'YouTube ', 'YouTube ');
