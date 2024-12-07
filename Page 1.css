@@ -39,7 +39,6 @@ header img.icon {
     transition: all 0.9s;
 }
 header img:hover {
-    filter: blur(2px);
     transform: scale(1.1);
 }
 nav ul {
@@ -102,7 +101,6 @@ header.day-mode {
     margin-right: 450px;
 }
 #texte:hover {
-    filter: blur(1px);
     transform: scale(1.1);
 }
 .px-3 {
@@ -112,6 +110,5 @@ header.day-mode {
     font-size: 1.4rem;
 }
 .px-3:hover {
-    filter: blur(1px);
     transform: scale(1.1);
 }
